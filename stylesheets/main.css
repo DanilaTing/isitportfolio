@@ -80,6 +80,7 @@ h1::selection {
 
 p {
   font-size: 1.73vw;
+  line-height: 2.73vw;
 }
 
 p::-moz-selection {
@@ -124,6 +125,39 @@ p a:hover {
   padding-bottom: 2vh;
 }
 
+.labs {
+  margin-left: 10vw;
+  padding-bottom: 10vh;
+}
+
+.psycho {
+  margin-left: 30vw;
+  padding-bottom: 10vh;
+}
+
+.blog {
+  margin-left: 10vw;
+  padding-bottom: 10vh;
+}
+
+.flow {
+  margin-left: 50vw;
+  padding-bottom: 10vh;
+}
+
+#flowImg {
+  max-width: 20vw;
+  margin-left: 0;
+  margin-top: 2vw;
+
+  box-shadow: 2px 0px 16px rgba(0,0,0,.2);
+}
+
+.aviapark {
+  margin-left: 10vw;
+  padding-bottom: 10vh;
+}
+
 .secretpage {
   margin-left: 18.5vw;
   padding-bottom: 5vh;
@@ -148,8 +182,9 @@ p a:hover {
   max-width: 50vw;
 }
 
-.img {
+img {
   margin-left: -2vw;
+  max-width: 50vw;
 }
 
 .img:last-of-type {
